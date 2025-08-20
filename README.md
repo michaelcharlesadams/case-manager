@@ -1,28 +1,32 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Client & Matter Management System
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A sample application built with **Laravel** to demonstrate clean architecture, CRUD operations, API endpoints, authentication, and professional development practices.  
 
-## About Laravel
+This project is intended as a code sample for prospective employers and showcases real-world Laravel capabilities.  
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Features
+- User authentication (Laravel Breeze)  
+- Client management (create, view, update, delete clients)  
+- Matter management (link matters to clients, assign statuses: `open`, `on_hold`, `closed`)  
+- REST API endpoints for clients and matters (`/api/clients`, `/api/matters`)  
+- Eloquent relationships (`Client hasMany Matters`)  
+- Form validation with custom error handling  
+- Database migrations, seeders, and factories  
+- Feature & unit tests (run via `php artisan test`)  
+- Blade views styled with Tailwind CSS  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🛠️ Tech Stack
+- **Backend:** Laravel 11 (PHP 8.2+)  
+- **Frontend:** Blade + TailwindCSS  
+- **Database:** MySQL (default)  
+- **API Auth:** Laravel Sanctum (for secure endpoints)  
+- **Testing:** PHPUnit & Laravel test utilities  
 
+<<<<<<< HEAD
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
@@ -63,3 +67,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+=======
+>>>>>>> dc2b77426169bbca0cd9b9ca7b3d053441b480e8
