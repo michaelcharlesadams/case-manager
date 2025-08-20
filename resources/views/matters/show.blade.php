@@ -8,6 +8,8 @@
                 <p class="pb-2">Client: {{$matter->client->name}}</p>
                 <hr class="pb-2">
                 <a href="{{ route('matters.index') }}" class="text-indigo-600 btn btn-primary">View all matters</a>
+                <hr class="pb-2">
+                <a href="{{ route('matters.edit', $matter->id) }}" class="text-indigo-600 btn btn-primary">Edit this matter</a>
             </div>
         </div>
     </div>

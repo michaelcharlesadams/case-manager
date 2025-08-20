@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Client;
+use App\Models\Matter;
 use Illuminate\Http\Request;
 
 class ClientController extends Controller
@@ -56,7 +57,8 @@ class ClientController extends Controller
      */
     public function show(Client $client)
     {
-        //
+        $client->load(['matters']);
+        return view('clients.show', compact('client'));
     }
 
     /**
